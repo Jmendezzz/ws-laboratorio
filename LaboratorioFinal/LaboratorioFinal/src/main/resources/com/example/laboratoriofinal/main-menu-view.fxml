@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="720.0" prefWidth="1440.0" stylesheets="@../../../mainMenu.css" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.laboratoriofinal.SceneController">
+   <children>
+      <HBox prefHeight="734.0" prefWidth="1492.0">
+         <children>
+            <VBox fx:id="sideBarMenu" prefHeight="734.0" prefWidth="428.0">
+               <children>
+                  <AnchorPane prefHeight="309.0" prefWidth="354.0">
+                     <children>
+                        <ImageView fitHeight="351.0" fitWidth="388.0" layoutX="31.0" pickOnBounds="true">
+                           <image>
+                              <Image url="@../../../images/logo.png" />
+                           </image>
+                        </ImageView>
+                     </children>
+                  </AnchorPane>
+                  <HBox prefHeight="21.0" prefWidth="486.0">
+                     <children>
+                        <AnchorPane prefHeight="49.0" prefWidth="123.0">
+                           <children>
+                              <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="88.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/obrero.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="14.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="monitorButton" alignment="TOP_LEFT" layoutX="14.0" layoutY="2.0" mnemonicParsing="false" onAction="#switchToMonitorsScene" prefHeight="39.0" prefWidth="306.0" text="Gestionar monitores" textFill="WHITE">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="21.0" prefWidth="486.0">
+                     <children>
+                        <AnchorPane prefHeight="49.0" prefWidth="123.0">
+                           <children>
+                              <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="88.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/estudiante.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="14.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="estudiantesButton" alignment="TOP_LEFT" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onAction="#switchToStudentsScene" prefHeight="39.0" prefWidth="306.0" text="Gestionar estudiantes" textFill="WHITE">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="21.0" prefWidth="486.0">
+                     <children>
+                        <AnchorPane prefHeight="49.0" prefWidth="123.0">
+                           <children>
+                              <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="88.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/prestamo.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="14.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="prestamosButton" alignment="TOP_LEFT" layoutX="14.0" layoutY="38.0" mnemonicParsing="false" onAction="#switchToPrestamosScene" prefHeight="39.0" prefWidth="306.0" text="Prestamos" textFill="WHITE">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="21.0" prefWidth="486.0">
+                     <children>
+                        <AnchorPane prefHeight="49.0" prefWidth="123.0">
+                           <children>
+                              <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="88.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../images/inventario.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane prefHeight="14.0" prefWidth="200.0">
+                           <children>
+                              <Button fx:id="inventarioButton" alignment="TOP_LEFT" layoutX="14.0" layoutY="33.0" mnemonicParsing="false" onAction="#switchToInventarioScene" prefHeight="39.0" prefWidth="306.0" text="Inventario" textFill="WHITE">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children></HBox>
+   </children>
+</AnchorPane>
