@@ -5,36 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38eff8d1-0f15-41a2-960e-f848ed7d99ac" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/java/com/example/laboratoriofinal/HelloApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/java/com/example/laboratoriofinal/SceneController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/java/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/com/example/laboratoriofinal/estudiantes-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/com/example/laboratoriofinal/inventario-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/com/example/laboratoriofinal/login-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/com/example/laboratoriofinal/main-menu-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/com/example/laboratoriofinal/monitor-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/com/example/laboratoriofinal/prestamo-view.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/estudiantes.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/images/estudiante.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/images/inventario.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/images/obrero.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/images/prestamo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/LaboratorioFinal/src/main/resources/mainMenu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Controller/ModelFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Controller/ModelFactoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Controller/MonitorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Controller/MonitorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/SceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/SceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/MonitorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/MonitorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/ModelFactoryControllerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/ModelFactoryControllerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/MonitorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/MonitorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/SceneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/SceneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/estudiantes-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/estudiantes-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/inventario-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/inventario-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/main-menu-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/main-menu-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/monitor-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/monitor-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/prestamo-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/prestamo-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +57,10 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/jugem/OneDrive/Desktop/LaboratorioGit/LaboratorioFinal"
+    "last_opened_file_path": "C:/Users/Usuario/AppData/Local/SceneBuilder/SceneBuilder.exe",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">

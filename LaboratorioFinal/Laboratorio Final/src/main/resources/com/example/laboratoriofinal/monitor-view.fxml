@@ -62,7 +62,7 @@
                         </AnchorPane>
                         <AnchorPane prefHeight="14.0" prefWidth="200.0">
                            <children>
-                              <Button fx:id="estudiantesButton" alignment="TOP_LEFT" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onAction="#switchToStudentsScene" prefHeight="39.0" prefWidth="306.0" text="Gestionar estudiantes" textFill="WHITE">
+                              <Button fx:id="estudiantesButton" alignment="TOP_LEFT" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onAction="#swithToStudentsScene" prefHeight="39.0" prefWidth="306.0" text="Gestionar estudiantes" textFill="WHITE">
                                  <font>
                                     <Font size="18.0" />
                                  </font>
@@ -188,7 +188,7 @@
                         </HBox>
                         <AnchorPane prefHeight="36.0" prefWidth="993.0">
                            <children>
-                              <Button fx:id="saveButton" layoutX="197.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Guardar" onAction="#createMonitor" />
+                              <Button fx:id="saveButton" layoutX="197.0" layoutY="2.0" mnemonicParsing="false" onAction="#createMonitor" prefHeight="25.0" prefWidth="88.0" text="Guardar" />
                            </children>
                         </AnchorPane>
                      </children>
@@ -211,7 +211,7 @@
                         </HBox>
                      </children>
                   </AnchorPane>
-                  <TableView prefHeight="401.0" prefWidth="993.0">
+                  <TableView fx:id="table" prefHeight="401.0" prefWidth="993.0">
                      <columns>
                         <TableColumn prefWidth="304.0" text="Nombre" />
                         <TableColumn minWidth="0.0" prefWidth="177.0" text="Identificacion" />

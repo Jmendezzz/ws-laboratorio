@@ -63,7 +63,7 @@
                         </AnchorPane>
                         <AnchorPane prefHeight="84.0" prefWidth="355.0">
                            <children>
-                              <Button fx:id="estudiantesButton" alignment="TOP_LEFT" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onAction="#switchToStudentsScene" prefHeight="39.0" prefWidth="312.0" text="Gestionar estudiantes" textFill="WHITE">
+                              <Button fx:id="estudiantesButton" alignment="TOP_LEFT" layoutX="14.0" layoutY="45.0" mnemonicParsing="false" onAction="#switchtoStudentsScene" prefHeight="39.0" prefWidth="312.0" text="Gestionar estudiantes" textFill="WHITE">
                                  <font>
                                     <Font size="18.0" />
                                  </font>
