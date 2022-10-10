@@ -5,14 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38eff8d1-0f15-41a2-960e-f848ed7d99ac" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_win_17_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_base_linux_17_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_win_17_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_controls_linux_17_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_win_17_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_fxml_linux_17_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_win_17_0_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_graphics_linux_17_0_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_win_19.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_openjfx_javafx_media_linux_19.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Controller/EstudianteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Controller/EstudianteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Controller/ModelFactoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Controller/ModelFactoryController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Controller/MonitorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Controller/MonitorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Model/Monitor.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Model/Monitor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Model/Estudiante.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Model/Estudiante.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/EstudianteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/EstudianteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/EstudianteImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/EstudianteImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/Laboratorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/Laboratorio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/MonitorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/MonitorImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/monitor-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/com/example/laboratoriofinal/monitor-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/estudiantes.css" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/resources/estudiantes.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/ObjetoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/ObjetoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/PrestamoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/Impl/PrestamoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/ModelFactoryControllerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/ModelFactoryControllerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/MonitorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/MonitorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/ObjetoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/ObjetoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/PrestamoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/Laboratorio Final/src/main/java/com/example/laboratoriofinal/Services/PrestamoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,16 +58,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/jugem/OneDrive/Desktop/Final Laboratorio GIT/ws-laboratorio/LaboratorioFinal&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/mdz_j/Descargas/co.edu.cue.lab-20221009T184837Z-001",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jugem\OneDrive\Desktop\Laboratorio Final\Laboratorio Final\src\main\resources" />

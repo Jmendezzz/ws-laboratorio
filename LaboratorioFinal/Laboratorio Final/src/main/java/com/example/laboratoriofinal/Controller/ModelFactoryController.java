@@ -1,5 +1,6 @@
 package com.example.laboratoriofinal.Controller;
 
+import com.example.laboratoriofinal.Model.Estudiante;
 import com.example.laboratoriofinal.Model.Monitor;
 import com.example.laboratoriofinal.Services.Impl.Laboratorio;
 import com.example.laboratoriofinal.Services.ModelFactoryControllerService;
@@ -29,6 +30,8 @@ public class ModelFactoryController implements ModelFactoryControllerService {
     }
 
     // Todas las funciones del programa;
+
+    //FUNCIONES MONITORES
     @Override
     public void createMonitor(String name, String email, String cellphoneNumber, String id) {
         laboratorio.getMonitorService().createMonitor(name,email,cellphoneNumber,id);
@@ -38,6 +41,10 @@ public class ModelFactoryController implements ModelFactoryControllerService {
     @Override
     public ObservableList<Monitor> getMonitorArrayList() {
         return laboratorio.getMonitorService().getObservableListMonitor();
+    }
+    @Override
+    public boolean searchMonitor(String id) {
+        return laboratorio.getStudentService().searchEstudent(id);
     }
 
     //****** FUNCIONES DE CAMBIOS DE ESCENA**********////
@@ -73,6 +80,25 @@ public class ModelFactoryController implements ModelFactoryControllerService {
     public void switchToStudentsScene(ActionEvent e) throws IOException {
         laboratorio.getSceneService().switchtoStudentsScene(e);
     }
+
+    //********* ***********///
+
+    //ESTUDIANTES FUNCTIONS
+    @Override
+    public void createStudent(String name, String email, String cellphoneNumber, String id) {
+        laboratorio.getStudentService().createStudent( name,  email,  cellphoneNumber,  id);
+    }
+
+    @Override
+    public ObservableList<Estudiante> getObservableListStudents() {
+        return laboratorio.getStudentService().getObservableListStudents();
+    }
+
+    @Override
+    public boolean searchEstudent(String id) {
+        return laboratorio.getStudentService().searchEstudent(id);
+    }
+
     //********* ***********///
 
 

@@ -1,5 +1,6 @@
 package com.example.laboratoriofinal.Controller;
 import com.example.laboratoriofinal.Model.Monitor;
+import com.example.laboratoriofinal.Model.Persona;
 import javafx.application.Application;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -13,9 +14,10 @@ import javafx.scene.layout.VBox;
 
 import java.io.IOException;
 import java.net.URL;
+import java.util.List;
 import java.util.ResourceBundle;
 
-public class MonitorController implements Initializable {
+public class MonitorController<MOnitor> implements Initializable {
     ModelFactoryController mfc= ModelFactoryController.getInstance();
     @FXML
     private TextField cellphoneMonitor;
@@ -97,6 +99,10 @@ public class MonitorController implements Initializable {
         table.setItems(mfc.laboratorio.getMonitorService().getObservableListMonitor());
         table.refresh();
     }
+    void modifyMonitor(){
+
+
+    }
     @Override
     public void initialize(URL url, ResourceBundle rb){
         nameCol.setCellValueFactory((new PropertyValueFactory<>("name")));
@@ -106,5 +112,7 @@ public class MonitorController implements Initializable {
         salaryCol.setCellValueFactory(new PropertyValueFactory<>("salary"));
 
     }
+
+
 
 }
