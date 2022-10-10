@@ -213,11 +213,11 @@
                   </AnchorPane>
                   <TableView fx:id="table" prefHeight="401.0" prefWidth="993.0">
                      <columns>
-                        <TableColumn prefWidth="304.0" text="Nombre" />
-                        <TableColumn minWidth="0.0" prefWidth="177.0" text="Identificacion" />
-                        <TableColumn minWidth="0.0" prefWidth="193.0" text="Correo electronico" />
-                        <TableColumn prefWidth="142.0" text="Prestamos realizados" />
-                        <TableColumn minWidth="0.0" prefWidth="176.0" text="Salario actual" />
+                        <TableColumn fx:id="nameCol" prefWidth="304.0" text="Nombre" />
+                        <TableColumn fx:id="idCol" minWidth="0.0" prefWidth="177.0" text="Identificacion" />
+                        <TableColumn fx:id="emailCol" minWidth="0.0" prefWidth="193.0" text="Correo electronico" />
+                        <TableColumn fx:id="loanCol" prefWidth="142.0" text="Prestamos realizados" />
+                        <TableColumn fx:id="salaryCol" minWidth="0.0" prefWidth="176.0" text="Salario actual" />
                      </columns>
                   </TableView>
                </children>

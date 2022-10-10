@@ -14,6 +14,8 @@ module com.example.laboratoriofinal {
     opens com.example.laboratoriofinal to javafx.fxml;
     exports com.example.laboratoriofinal.Controller;
     opens com.example.laboratoriofinal.Controller to javafx.fxml;
+    exports com.example.laboratoriofinal.Model to javafx.fxml;
+    opens com.example.laboratoriofinal.Model;
 
 
 }

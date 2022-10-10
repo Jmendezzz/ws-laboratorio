@@ -1,8 +1,8 @@
 package com.example.laboratoriofinal.Model;
 
 public class Monitor extends Persona {
-    int salary;
-    int loansRealized;
+    int salary=0;
+    int loansRealized=0;
 
     public Monitor(String name, String email, String cellphoneNumber, String id) {
         super(name, email, cellphoneNumber, id);
